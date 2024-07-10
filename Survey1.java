@@ -8,7 +8,7 @@ public class Survey1 {
 
         Scanner scanner = new Scanner(System.in);
         int counter = 0;
-// "\n" says java to para change
+        // "\n" says java to para change
         System.out.println("\nWhat is your name?");
         String name = scanner.nextLine();
         counter++;
@@ -19,7 +19,7 @@ public class Survey1 {
         System.out.println("\nHow much money do you spend on fast food?");
         double foodPrice = scanner.nextDouble();
         counter++;
-// double mein scanner.nextDouble hoga , string mein .nextLine .
+        // double mein scanner.nextDouble hoga , string mein .nextLine .
 
         System.out.println("\nHow many times a week do you buy coffee?");
         int coffeeAmount = scanner.nextInt();
